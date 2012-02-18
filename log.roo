@@ -1,0 +1,14 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-02-18 12:18:34
+project --topLevelPackage com.test
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+// [failed] entity jpa --class ~.entity.Leave
+entity jpa --class ~.entity.LeaveE
+field string --fieldName id
+field string --fieldName name
+field string --fieldName season
+field date --fieldName dateAtleave --timeFormat SHORT --dateFormat SHORT --type java.util.Date
+field string --fieldName apoveBy 
+field boolean --fieldName apove
+controller all --package ~.web
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-02-18 12:28:11

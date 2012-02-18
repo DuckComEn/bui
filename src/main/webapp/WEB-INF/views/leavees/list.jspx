@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_test_entity_LeaveE" items="${leavees}" z="fdJO54eM1pqsfHgdRUTMSP6wnvQ=">
+        <table:table data="${leavees}" id="l_com_test_entity_LeaveE" path="/leavees" typeIdFieldName="id_" z="oc7mmDCJYQpjRGYGjU1PgzCtjcE=">
+            <table:column id="c_com_test_entity_LeaveE_id" property="id" z="WEnhC8LwD8WijkxLJeLoHDgZgpk="/>
+            <table:column id="c_com_test_entity_LeaveE_name" property="name" z="0z7dV7HNmNi16fIC3keiAbG6LiI="/>
+            <table:column id="c_com_test_entity_LeaveE_season" property="season" z="kCZMU9DfIUQapN6SeJZBR9EUfFE="/>
+            <table:column date="true" dateTimePattern="${leaveE_dateatleave_date_format}" id="c_com_test_entity_LeaveE_dateAtleave" property="dateAtleave" z="y+DzQvZHSUYL8ppNfkHvz7FbkKA="/>
+            <table:column id="c_com_test_entity_LeaveE_apoveBy" property="apoveBy" z="3nHBGIdidXy+zd5qtM+SPUSfeYw="/>
+            <table:column id="c_com_test_entity_LeaveE_apove" property="apove" z="YRebQEkjuW6xNYFJV9sbnGwSXko="/>
+        </table:table>
+    </page:list>
+</div>
