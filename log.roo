@@ -12,3 +12,13 @@ field boolean --fieldName apove
 controller all --package ~.web
 quit
 // Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-02-18 12:28:11
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-02-18 12:46:57
+focus --class ~.entity.LeaveE
+finder list 
+finder add --finderName findLeaveEsnameLike
+finder add --finderName findLeaveEsNameLike
+finder list 
+finder add --finderName findLeaveEsByNameLike
+controller all --package ~.web
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-02-18 12:50:28
